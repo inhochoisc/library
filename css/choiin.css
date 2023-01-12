@@ -1,0 +1,76 @@
+body {
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto', sans-serif;
+
+}
+#headerInfo {
+  font-size: 0.8em;
+  color: #4a4e69;
+  line-height: 20px;
+  background-color: #eaf4f4 ;
+}
+
+#wrapper {
+  position: relative;  
+  height: auto;
+  min-height: 100%;
+}
+
+#footerInfo {
+  font-size: 0.8em;
+  color: #4a4e69;
+  line-height: 20px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  transform: translateY(-100);
+  background-color: #eaf4f4; 
+}
+
+#categoryList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  
+}
+
+button {
+  background-color: white; 
+  border: none;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  font-size: 2em;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+hr {
+  border-top: 0.5px solid #bbb8b8;
+}
+
+img {
+  border: 1px solid #bcb8b1;
+  border-radius: 4px;
+  padding: 2px 20px;
+  width: 130px;
+  margin-bottom: 13px;
+}
+
+@media screen and (orientation: portrait) {
+  td img { width: 50px; height: 50px; }
+}
+@media screen and (orientation: landscape) {
+  td img { width: 30px; height: 30px; }
+}
